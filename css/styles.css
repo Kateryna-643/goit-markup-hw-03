@@ -83,6 +83,10 @@ button {
     gap: 40px;
 }
 
+.header-menu-item {
+    padding: 24px 0;
+}
+
 .header-menu-link {
     color: #2E2F42;
         font-size: 16px;
@@ -123,10 +127,11 @@ button {
 
 address {font-style: normal;}
 
-.hero-container {
+.hero {
+    padding: 188px 0;
     background-color: #2e2f42;
-    padding: 188px;
 }
+
 
 .hero-title {
     color: #FFF;
@@ -233,15 +238,17 @@ address {font-style: normal;}
 
 .team-name {
     color: #2E2F42;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-img {
     background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-info {
@@ -291,6 +298,7 @@ address {font-style: normal;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-description {
